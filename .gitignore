@@ -1,0 +1,40 @@
+# Node.js
+node_modules/
+
+# Dependências do npm
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Diretórios de build
+dist/
+build/
+
+# Arquivos de configuração locais
+.env
+.env.local
+.env.*.local
+
+# Arquivos do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Arquivos de log
+logs/
+*.log
+
+# Arquivos do editor de código (ex: VSCode)
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Arquivos de cache
+.cache/
+.npm/
+
+# Testes e coverage (se estiver usando ferramentas de testes)
+coverage/
+
+# Arquivos temporários
+*.tgz
