@@ -24,6 +24,8 @@ exports.getLivroById = async (req, res) => {
   }
 };
 
+
+
 // Função para criar um novo livro
 exports.createLivro = async (req, res) => {
   const { LIV_TITULO, LIV_DISPONIBILIDADE, LIV_SINOPSE, LIV_MEDIA_AVALIACAO, AUT_CODIGO } = req.body;
